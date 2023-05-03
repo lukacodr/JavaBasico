@@ -3,11 +3,11 @@ package com.company;
 public abstract class Car {
 
     // atributos //caracteristicas que tendria un coche y que varian de un coche a otro.
-    //La clase coche actua como una plantilla. Podemos crear tantos ObjCoche como quisieramos
+    // La clase coche actua como una plantilla. Podemos crear tantos ObjCoche como quisieramos
     // ya que por lo general los coches comparten una serias de caracteristicas, propiedades y comportamientos.
     String color;
     String fabricante;
-    String modelo
+    String modelo;
     Double peso;
     Double largo;
     Integer velocidad = 0;
@@ -43,5 +43,6 @@ public abstract class Car {
                 ", largo=" + largo +
                 ", velocidad=" + velocidad +
                 '}';
+
     }
 }
