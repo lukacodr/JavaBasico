@@ -1,5 +1,9 @@
 package IdeArchivosJavaySintaxis;
 
+/**
+ * Sobrecarga permite duplircar un metodo siempre y cuendo tengan diferente numero/tipo parametros.
+ */
+
 public class Sobrecarga {
 
     public static void main(String[] args) {
