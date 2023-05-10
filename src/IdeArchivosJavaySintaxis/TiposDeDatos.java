@@ -6,6 +6,9 @@ package IdeArchivosJavaySintaxis;
  * Dentro det paquete crear una clase.
  * Dentro de la clase crear un metodo main.
  * Imprimir todos los tipos de datos vistos.
+ *
+ * Tipos de datos mas comunes:
+ * int, long, double, boolean, String
  */
 public class TiposDeDatos {
 
