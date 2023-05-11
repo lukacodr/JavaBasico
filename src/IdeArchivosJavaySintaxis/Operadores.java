@@ -43,5 +43,10 @@ public class Operadores {
         int edad = 17;
         boolean carnetJoven = numero1 > 15 && edad <= 21;
         System.out.println(carnetJoven);
+
+        // Operadores
+        // incremento ++ sumer un numero a la variable que le apliquemos el ++9
+        // decremento -- resta un numero a la variable que le apliquemos el --
+
     }
 }
