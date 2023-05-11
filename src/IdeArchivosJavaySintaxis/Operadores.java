@@ -45,7 +45,7 @@ public class Operadores {
         System.out.println(carnetJoven);
 
         // Operadores
-        // incremento ++ sumer un numero a la variable que le apliquemos el ++9
+        // incremento ++ suma un numero a la variable que le apliquemos el ++
         // decremento -- resta un numero a la variable que le apliquemos el --
 
     }
