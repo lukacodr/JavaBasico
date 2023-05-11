@@ -1,4 +1,4 @@
-package company1;
+package ImportantBaseData.more;
 
 public class NameFormatException extends Exception {
 

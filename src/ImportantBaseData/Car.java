@@ -1,4 +1,4 @@
-package com.company;
+package ImportantBaseData;
 
 public abstract class Car {
 

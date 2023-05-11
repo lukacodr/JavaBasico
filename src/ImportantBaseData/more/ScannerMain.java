@@ -1,4 +1,4 @@
-package company1;
+package ImportantBaseData.more;
 
 import java.util.Scanner;
 
