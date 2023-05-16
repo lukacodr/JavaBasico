@@ -19,5 +19,13 @@ public class Main {
         fordMondeo.acelerar(50);
         System.out.println(fordMondeo.speed); // 50
 
+        // 2. herencia
+        Motocicleta
+
+
+        // 3. polimorfismo
+        Vehiculo vehiculo;
+
+        vehiculo
     }
 }
