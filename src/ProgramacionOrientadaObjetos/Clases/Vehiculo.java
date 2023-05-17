@@ -4,13 +4,13 @@ public class Vehiculo {
 
 
     // 1. Atributos
-    String fabricante;
-    String modelo;
-    double cc;
-    int year;
-    boolean sport;
-    int speed;
-    Motor motor;
+    protected String fabricante;
+    protected String modelo;
+    protected double cc;
+    protected int year;
+    protected boolean sport;
+    protected int speed;
+    protected Motor motor;
 
 
     // 2. Constructores

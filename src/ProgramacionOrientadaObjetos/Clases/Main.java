@@ -26,6 +26,7 @@ public class Main {
         // 3. polimorfismo
         Vehiculo vehiculo;
 
-        vehiculo
+        Motocicleta kawasakiNinja = new Motocicleta();
+        kawasakiNinja.fabricante =         ""
     }
 }
