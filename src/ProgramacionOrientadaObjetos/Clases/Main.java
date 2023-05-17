@@ -1,15 +1,19 @@
-package ProgramacionOrientadaObjetos.clases;
+package ProgramacionOrientadaObjetos.Clases;
+
+import ProgramacionOrientadaObjetos.Clases.Vehiculo;
+import ProgramacionOrientadaObjetos.Herencia.Camion;
+import ProgramacionOrientadaObjetos.Herencia.Coche;
+import ProgramacionOrientadaObjetos.Herencia.Motocicleta;
 
 public class Main {
 
     public static void main(String[] args) {
 
+        // 1. Clases y Objetos
         // Clase identificador = new Clase();
 
-        // Crear un objeto utilizando el constructor vacio
         Vehiculo toyotaPrius = new Vehiculo();
 
-        // Crear un objeto utilizando el contructor con parametros
         Motor motorGTI = new Motor("GTI", 190, 459.0, 6);
 
         Vehiculo fordMondeo = new Vehiculo("Ford","Mondeo", 2.2, 2010, false, 0, motorGTI);
@@ -19,14 +23,25 @@ public class Main {
         fordMondeo.acelerar(50);
         System.out.println(fordMondeo.speed); // 50
 
-        // 2. herencia
-        Motocicleta
+        // 2. Herencia
+        Motocicleta kawasakiNinja = new Motocicleta();
+        kawasakiNinja.fabricante = "kawasaki";
 
 
-        // 3. polimorfismo
+        System.out.println("fin del programa");
+
+        // 3. Polimorfismo
         Vehiculo vehiculo;
 
-        Motocicleta kawasakiNinja = new Motocicleta();
-        kawasakiNinja.fabricante =         ""
+        vehiculo = new Motocicleta();
+        vehiculo.acelerar(50);
+
+        vehiculo = new Coche();
+        vehiculo.acelerar(50);
+
+        vehiculo = new Camion();
+        vehiculo.acelerar(50);
+
+
     }
 }

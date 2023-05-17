@@ -1,6 +1,8 @@
 package ProgramacionOrientadaObjetos.Herencia;
 
-public class Coche extends ProgramacionOrientadaObjetos.clases.Vehiculo {;
+import ProgramacionOrientadaObjetos.Clases.Vehiculo;
+
+public class Coche extends Vehiculo {
 
     int numPuertas;
 

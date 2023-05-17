@@ -1,6 +1,8 @@
 package ProgramacionOrientadaObjetos.Herencia;
 
-public class Camion extends ProgramacionOrientadaObjetos.clases.Vehiculo {
+import ProgramacionOrientadaObjetos.Clases.Vehiculo;
+
+public class Camion extends Vehiculo {
 
     public Camion (){
         this.fabricante = "";

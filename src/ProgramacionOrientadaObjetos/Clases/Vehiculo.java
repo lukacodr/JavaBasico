@@ -1,15 +1,19 @@
-package ProgramacionOrientadaObjetos.clases;
+package ProgramacionOrientadaObjetos.Clases;
+
+/**
+ * Clase base o superclase o clase padre
+ */
 
 public class Vehiculo {
 
 
     // 1. Atributos
-    protected String fabricante;
+    public String fabricante;
     protected String modelo;
     protected double cc;
-    protected int year;
+    public int year;
     protected boolean sport;
-    protected int speed;
+    public int speed;
     protected Motor motor;
 
 
