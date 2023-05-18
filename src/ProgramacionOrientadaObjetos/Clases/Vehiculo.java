@@ -14,7 +14,7 @@ public class Vehiculo {
     public int year;
     protected boolean sport;
     public int speed;
-    protected Motor motor;
+    protected String motor;
 
 
     // 2. Constructores
@@ -23,7 +23,7 @@ public class Vehiculo {
 
     }
 
-    public Vehiculo(String fabricante, String modelo, double cc, int year, boolean sport, int speed, Motor motor) {
+    public Vehiculo(String fabricante, String modelo, double cc, int year, boolean sport, int speed, String motor) {
         this.fabricante = fabricante;
         this.modelo = modelo;
         this.cc = cc;

@@ -14,9 +14,9 @@ public class Main {
 
         Vehiculo toyotaPrius = new Vehiculo();
 
-        Motor motorGTI = new Motor("GTI", 190, 459.0, 6);
+       // Motor motorGTI = new Motor("GTI", 190, 459.0, 6);
 
-        Vehiculo fordMondeo = new Vehiculo("Ford","Mondeo", 2.2, 2010, false, 0, motorGTI);
+        Vehiculo fordMondeo = new Vehiculo("Ford","Mondeo", 2.2, 2010, false, 0, motor);
         System.out.println(fordMondeo.fabricante);
         System.out.println(fordMondeo.year);
         System.out.println(fordMondeo.speed); // 0
