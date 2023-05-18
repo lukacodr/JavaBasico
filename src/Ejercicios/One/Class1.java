@@ -1,4 +1,4 @@
-package Package1;
+package Ejercicios.One;
 
 public class Class1 {
 
