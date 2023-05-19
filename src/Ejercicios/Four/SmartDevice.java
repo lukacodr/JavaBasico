@@ -1,3 +1,5 @@
+package Ejercicios.Four;
+
 class SmartDevice {
 
     protected String brand;

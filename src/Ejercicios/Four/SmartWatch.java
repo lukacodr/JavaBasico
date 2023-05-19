@@ -1,3 +1,5 @@
+package Ejercicios.Four;
+
 class SmartWatch extends SmartDevice {
 
     private String displayType;

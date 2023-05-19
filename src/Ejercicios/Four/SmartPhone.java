@@ -1,3 +1,5 @@
+package Ejercicios.Four;
+
 class SmartPhone extends SmartDevice {
 
     private String operatingSystem;
