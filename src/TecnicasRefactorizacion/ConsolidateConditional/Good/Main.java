@@ -24,7 +24,7 @@ public class Main {
 
     public boolean isElegibleExtraSalary() {
         //agrupar consiciones utilizando AND (&&) y OR (||)
-        boolean estudios = seniority<1 || education<1;
+        boolean estudios = seniority < 1 || education < 1;
         boolean antiguedad = incidents > 10 && certification;
         return estudios || antiguedad;
 
