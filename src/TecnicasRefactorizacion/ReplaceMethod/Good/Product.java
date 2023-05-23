@@ -1,29 +1,25 @@
 package TecnicasRefactorizacion.ReplaceMethod.Good;
 
+/**
+ * Tecnica de refactoring para componer metodos
+ * (Composing Methods)
+ *
+ * Replace method with method object
+ */
 public class Product {
 
-    double price;
-    int quantity;
-    double discount;
-    double shipping;
+    private double price;
+    private int quantity;
+    private double discount;
+    private double shipping;
 
-    //constructores
+    //metodos especiales
 
-    //metodos
+    double calculatePrice(){
+        // ProductPriceCalculator calculator = new ProductPriceCalculator(this);
+        // return calculator.calculatorPrice();
 
-    // tostring
-
-    public double calculatePrice(){
-        double result = 0;
-        double priceQuantity = this.price * this.quantity;
-        double priceDiscount = this.price * this.discount;
-        double priceShipping = shipping * 0.50;
-
-        //.....
-
-        //.....
-
-        return result;
+        return new ProductPriceCalculator(this).calculatePrice();
     }
 
     // getter y setter
