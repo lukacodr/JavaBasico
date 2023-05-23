@@ -8,22 +8,22 @@ public class Main {
     private int incidents;
     private boolean certification;
 
-    double calculateExtraSalary(){
+    double calculateExtraSalary() {
         double result = 0;
-        return 0;
-    }
-    if (education<1){
-        return 0;
-    }
-    if(incidents > 10){
-        return 0;
-    }
-    if (!certification){
-        return 0;
-    }
 
-    // Calculate extra salary:
-    // ...
-    return result:
+        if (education < 1) {
+            return 0;
+        }
+        if (incidents > 10) {
+            return 0;
+        }
+        if (!certification) {
+            return 0;
+        }
 
+        // Calculate extra salary:Hola gerardo desde clase Main
+        // ...
+        return result;
+
+    }
 }
