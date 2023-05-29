@@ -1,4 +1,4 @@
-package ManejoDeErrores.TiposDeErrores;
+package ManejoDeErrores.QueSonYTipos;
 //Los errores son comportamientos no esperados en el programa
 // no solo cuando ejecuto el programa, sino tambien cuando estoy
 // diseñando el programa o escribiendo el programa
