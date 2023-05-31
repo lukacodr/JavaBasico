@@ -1,23 +1,21 @@
-//InputStream Lee
-package EntradaSalida.InputStream;
+package EntradaSalida.BufferInputStream;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-
+import java.io.*;
+//Trabaja con entradas, en vez que con ficheros. Lee en memoria trocitos y cuando
+//nosotros accedemos ahi nos lo va dando poquito a poco.
+//No carga todo en memoria y notosotros no accedemos a todo a la vez
 public class Main {
 
     public static void main(String[] args) {
         try {
             InputStream fichero = new FileInputStream("/etc/passwd");
+            BufferedInputStream ficheroBuffer = new  BufferedInputStream(fichero);
 
             try {
-                byte datos[] = new byte[5];
-                int dato = fichero.read();
+                int dato = ficheroBuffer.read();
                 while (dato != -1) {
                     System.out.println((char) dato);
-                    dato = fichero.read(datos);
+                    dato = ficheroBuffer.read();
                 }
 
 
@@ -30,3 +28,4 @@ public class Main {
 
     }
 }
+
