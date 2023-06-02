@@ -1,6 +1,3 @@
-//JavaScript Object Notation
-//Cuando tendremos mas campos utilizaremos coma ","
-//El ultimo elemento no va con coma ","
 {
   "credenciales": {
     "usuarios": "openbootcamp",
