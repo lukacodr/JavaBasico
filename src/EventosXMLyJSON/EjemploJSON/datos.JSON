@@ -1,0 +1,15 @@
+//JavaScript Object Notation
+//Cuando tendremos mas campos utilizaremos coma ","
+//El ultimo elemento no va con coma ","
+{
+  "credenciales": {
+    "usuarios": "openbootcamp",
+    "clave": "EstoEs1clave",
+
+    "videos":[
+      "Primera sesion",
+      "Segunda sesion",
+      "Tercera sesion"
+    ]
+  }
+}
